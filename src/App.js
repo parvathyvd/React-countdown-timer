@@ -4,10 +4,10 @@ import Footer from './Footer';
 
 function App() {
 
-const [days, setDays] = useState('') 
-const [hours, setHours] = useState('') 
-const [minutes, setMinutes] = useState('') 
-const [seconds, setSeconds] = useState('') 
+const [days, setDays] = useState('08') 
+const [hours, setHours] = useState('23') 
+const [minutes, setMinutes] = useState('55') 
+const [seconds, setSeconds] = useState('41') 
 const [expired, setExpired] = useState(false);
 
  // Set the date we're counting down to
